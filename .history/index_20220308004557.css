@@ -41,15 +41,13 @@ body {
 
 .body_text {
     position: absolute;
-    bottom: -50px;
-    left: 30%;
-    visibility: hidden;
+    bottom: 0;
+    left: 40%;
 
 }
 
 .body_text span {
-    font-size: 40px;
-    color:#ea68a2;
+    font-size: 20px;
 }
 
 .body_bar {

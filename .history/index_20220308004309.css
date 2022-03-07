@@ -39,23 +39,10 @@ body {
 
 }
 
-.body_text {
-    position: absolute;
-    bottom: -50px;
-    left: 30%;
-    visibility: hidden;
-
-}
-
-.body_text span {
-    font-size: 40px;
-    color:#ea68a2;
-}
-
 .body_bar {
     position: absolute;
     left: 0;
-    top: 110px;
+    top: 96px;
     visibility: hidden;
     display: inline;
     right: 0;

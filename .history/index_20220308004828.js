@@ -235,7 +235,7 @@ function Rise() {
     /* 鍗囬珮鏃讹紝绉诲姩鐨勮窛绂�*/
     const target = 120,
         /* 鐩爣璺濈*/
-        speed = 2;
+        speed = 1;
     /*绉诲姩閫熷害*/
 
     let love_top = parseFloat(window.getComputedStyle(love, null).top.slice(0, -2)); //鐖卞績鐩掑瓙璺濈灞忓箷椤堕儴鐨勮窛绂�
@@ -253,7 +253,7 @@ function Rise() {
         console.log(my_love)
         my_love.style.visibility = "visible"; //鍗囩
         body_text.style.visibility = "visible"
-        love.style.top = (love_top - distance)- 200 + "px";
+        love.style.top = (love_top - distance) + "px";
 
     }, 22);
 

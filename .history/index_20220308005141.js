@@ -253,7 +253,7 @@ function Rise() {
         console.log(my_love)
         my_love.style.visibility = "visible"; //鍗囩
         body_text.style.visibility = "visible"
-        love.style.top = (love_top - distance)- 200 + "px";
+        love.style.top = (love_top - distance)-50 + "px";
 
     }, 22);
 
