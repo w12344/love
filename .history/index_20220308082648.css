@@ -41,8 +41,8 @@ body {
 
 .body_text {
     position: absolute;
-    bottom: -100px;
-    left: 12%;
+    bottom: -50px;
+    left: 20%;
     visibility: hidden;
 
 }
